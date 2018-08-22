@@ -4,6 +4,9 @@ spring:
   jpa:
     properties.hibernate.dialect: org.hibernate.dialect.MySQL5Dialect
 
+  application:
+    name: album-service
+
   datasource:
     url: jdbc:mysql://localhost:3306/albums?useSSL=false
     username: root
@@ -20,3 +23,5 @@ s3:
 security:
   basic:
     enabled: false
+
+
